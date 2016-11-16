@@ -1,6 +1,7 @@
 'use strict';
 
 (function () {
+    /**BLOCK SCOPE BEGIN */
     // console.log(block);
     if (true) {
         let block = 'block';
@@ -24,4 +25,9 @@
         obj.test = 'changed';
         console.log(referenceTest);
     }
+    /**BLOCK SCOPE END*/
+
+    /**SPREAD OPERATOR & FUNCTION PARAMETERS BEGIN */
+    
+    /**SPREAD OPERATOR & FUNCTION PARAMETERS END */
 })();
